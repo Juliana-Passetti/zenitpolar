@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+body {
+    background-image: url('./666666.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    color: #387b9c;
+    font-size: 2.5em;
+    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+
+label {
+    font-size: 1.5em;
+    color: #b0d1e2;
+    text-shadow: 1px 2px 3px rgba(53, 140, 226, 0.4);
+    font-weight: bold;
+}
+
+label::after {
+    content: ':';
+}
+
+textarea {
+    color: #092838;
+    width: 100%;
+    height: 8rem;
+    font-size: 1.5em;
+    resize: none;
+}
+
+#result {
+
+    font-style: italic;
+
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    padding: 1em;
+    background: #195d7f;
+    border: 1px solid #195d7f;
+    color: #b0d1e2;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, .4);
+    font-size: 1.4em;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #5c8494;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+small {
+    color: #70bde3;
+    display: block;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    color: #70bde3;
+    font-size: 10px;
+    height: auto;
+    align-items: end;
+    justify-content: end;
+}
